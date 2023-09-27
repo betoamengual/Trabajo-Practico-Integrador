@@ -1,0 +1,65 @@
+body, html {
+    background: linear-gradient(320deg, #000000, #d3b3d3);
+   /* justify-content: space-between; /* Espacio entre los contenedores */
+   margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: red;
+  }
+ h1 {
+    text-align: center;
+ }
+section {
+
+  display: flex;
+  width: 500px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  height: 500px;
+}
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .9;
+  transition: .5s ease;
+  
+}
+section img:hover {
+  cursor: cell;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+  transform: scale(1.1);   
+}
+
+
