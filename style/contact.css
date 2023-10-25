@@ -8,7 +8,7 @@ body, html {
    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body {
-  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(77420df3f9e33db5b79ee25455d3340e.png);
+  background-image: linear-gradient(rgba(119, 107, 107, 0.75), rgba(0,0,0,0.75)), url(equipment.png);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     text-align: center;
    flex-direction: column;
@@ -49,3 +49,35 @@ a {
 a:hover {
   color: aqua;
 }
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #000000;
+  display: flex; 
+  flex-direction: column;
+}
+
+.image-with-text {
+  display: flex; /* Utilizamos Flexbox para alinear la imagen y el texto */
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+  gap: 4px; /* Espacio entre la imagen y el texto */
+}
+
+.logo {
+  max-width: 25px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+/* Estilos adicionales */
+h2 {
+  color: #f1efef;
+}
+
+p {
+  color: #fffefe;
+}
+
