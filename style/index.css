@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh; /* Esto centra verticalmente en la página */
+    overflow: scroll;
 }
 
 nav {
@@ -90,6 +91,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: scroll;
     
 }
 
@@ -107,7 +109,7 @@ img {
     border-radius: 10px;
     text-align: center;
     opacity: 0.8;
-    font-size: 22px;
+    font-size: 20px;
 }
 .intro p {
     line-height: 1.5;
